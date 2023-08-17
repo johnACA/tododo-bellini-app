@@ -1,0 +1,342 @@
+{
+  "name": "home",
+  "type": "page",
+  "url": "/home",
+  "params": {},
+  "variables": [],
+  "children": [
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "myDIV",
+      "attributes": [
+        {
+          "property": "data-id",
+          "value": "NNjUR5"
+        }
+      ],
+      "classList": [
+        "header"
+      ],
+      "conditionalClasses": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "h2",
+          "nodeName": "h2",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "data-id",
+              "value": "h3Odx_"
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "My To Do List",
+              "evaluate": false
+            }
+          ]
+        },
+        {
+          "name": "input",
+          "nodeName": "input",
+          "elementId": "myInput",
+          "attributes": [
+            {
+              "property": "type",
+              "value": "text"
+            },
+            {
+              "property": "placeholder",
+              "value": "Title..."
+            },
+            {
+              "property": "data-id",
+              "value": "_6zUvd"
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [],
+          "formDisabled": "",
+          "formReadonly": "",
+          "formValue": "",
+          "bindTo": ""
+        },
+        {
+          "name": "span",
+          "nodeName": "span",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "onclick",
+              "value": "newElement()"
+            },
+            {
+              "property": "data-id",
+              "value": "L5gJmd"
+            }
+          ],
+          "classList": [
+            "addBtn"
+          ],
+          "conditionalClasses": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Add",
+              "evaluate": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ul",
+      "nodeName": "ul",
+      "elementId": "myUL",
+      "attributes": [
+        {
+          "property": "data-id",
+          "value": "aCP1In"
+        }
+      ],
+      "classList": [],
+      "conditionalClasses": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "li",
+          "nodeName": "li",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "data-id",
+              "value": "Yy0UvK"
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Hit the gym",
+              "evaluate": false
+            }
+          ]
+        },
+        {
+          "name": "li",
+          "nodeName": "li",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "data-id",
+              "value": "5OMunQ"
+            }
+          ],
+          "classList": [
+            "checked"
+          ],
+          "conditionalClasses": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Pay bills",
+              "evaluate": false
+            }
+          ]
+        },
+        {
+          "name": "li",
+          "nodeName": "li",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "data-id",
+              "value": "oMYoEB"
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Meet George",
+              "evaluate": false
+            }
+          ]
+        },
+        {
+          "name": "li",
+          "nodeName": "li",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "data-id",
+              "value": "DuEMNm"
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Buy eggs",
+              "evaluate": false
+            }
+          ]
+        },
+        {
+          "name": "li",
+          "nodeName": "li",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "data-id",
+              "value": "r69FbO"
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Read a book",
+              "evaluate": false
+            }
+          ]
+        },
+        {
+          "name": "li",
+          "nodeName": "li",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "data-id",
+              "value": "AKiarM"
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Organize office",
+              "evaluate": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
