@@ -1,0 +1,5 @@
+{
+  "name": "heythere.js",
+  "type": "js",
+  "contents": "console.log(\"Hello world!\")"
+}
